@@ -1,14 +1,14 @@
 # Crosslingual On-Policy Self-Distillation for Multilingual Reasoning
 
 <p align="center">
-  <a href="https://arxiv.org/abs/XXXX.XXXXX"><img src="https://img.shields.io/badge/arXiv-COPSD-b31b1b.svg" alt="arXiv"></a>
+  <a href="https://arxiv.org/abs/2605.09548"><img src="https://img.shields.io/badge/arXiv-COPSD-b31b1b.svg" alt="arXiv"></a>
   <a href="https://huggingface.co/datasets/yihongLiu/COPSD-AfriMGSM-TrainDataset"><img src="https://img.shields.io/badge/🤗%20Dataset-Hugging%20Face-yellow" alt="AfriMGSM-Train-DataSet"></a>
   <a href="https://huggingface.co/datasets/yihongLiu/COPSD-PolyMath-TrainDataset"><img src="https://img.shields.io/badge/🤗%20Dataset-Hugging%20Face-yellow" alt="PolyMath-Train-DataSet"></a>
 </p>
 
 Official code release for **Crosslingual On-Policy Self-Distillation for Multilingual Reasoning**.
 
-> **Links:** [Paper](https://arxiv.org/abs/XXXX.XXXXX) · [TrainData1](https://huggingface.co/datasets/yihongLiu/COPSD-AfriMGSM-TrainDataset) · [TrainData2](https://huggingface.co/datasets/yihongLiu/COPSD-PolyMath-TrainDataset)
+> **Links:** [Paper](https://arxiv.org/abs/2605.09548) · [TrainData1](https://huggingface.co/datasets/yihongLiu/COPSD-AfriMGSM-TrainDataset) · [TrainData2](https://huggingface.co/datasets/yihongLiu/COPSD-PolyMath-TrainDataset)
 
 
 ## Overview
@@ -187,7 +187,7 @@ Evaluation outputs are saved under `eval_results/`.
 
 ## Released Assets
 
-- **Paper:** [arXiv link coming soon](https://arxiv.org/abs/XXXX.XXXXX)
+- **Paper:** [arXiv](https://arxiv.org/abs/2605.09548)
 - **Data:** [Train Data for AfriMGSM Languages](https://huggingface.co/datasets/yihongLiu/COPSD-AfriMGSM-TrainDataset) · [Train Data for PolyMath Languages](https://huggingface.co/datasets/yihongLiu/COPSD-PolyMath-TrainDataset)
 
 ## Citation
@@ -195,7 +195,15 @@ Evaluation outputs are saved under `eval_results/`.
 If you find this repository useful, please cite our paper:
 
 ```bibtex
-
+@misc{liu2026crosslingualonpolicyselfdistillation,
+      title={Crosslingual On-Policy Self-Distillation for Multilingual Reasoning}, 
+      author={Yihong Liu and Raoyuan Zhao and Michael A. Hedderich and Hinrich Schütze},
+      year={2026},
+      eprint={2605.09548},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2605.09548}, 
+}
 ```
 
 This codebase is adapted from OPSD. Please also consider citing the original OPSD work:
